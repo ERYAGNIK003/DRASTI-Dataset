@@ -1,4 +1,4 @@
-# YOLOv8 Benchmarking on DRASTI Dataset using Stepwell HPC (High Performance Computing) facility
+# Benchmarking YOLOv8 Models on DRASTI Dataset using Stepwell HPC (High Performance Computing) facility
 
 This repository provides the complete workflow to benchmark YOLOv8 models on the **DRASTI** dataset using **HPC clusters with Slurm job scheduler**. It includes environment setup, data preparation, model training, testing, and benchmarking steps.
 
