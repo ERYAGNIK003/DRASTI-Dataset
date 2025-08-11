@@ -1,6 +1,6 @@
-# YOLOv8 for HPC - DRASTI Dataset Training and Benchmarking
+# YOLOv8 Benchmarking on DRASTI Dataset using Stepwell HPC (High Performance Computing) facility
 
-This repository provides the complete workflow to train, test, and benchmark YOLOv8 models with the **DRASTI** dataset using **HPC clusters with slurm job scheduler**. It includes environment setup, data preparation, model training, testing, and benchmarking steps.
+This repository provides the complete workflow to benchmark YOLOv8 models on the **DRASTI** dataset using **HPC clusters with Slurm job scheduler**. It includes environment setup, data preparation, model training, testing, and benchmarking steps.
 
 ---
 
@@ -198,7 +198,7 @@ sbatch DRASTI_Test_YOLOv8n_obb.sh
 
 ---
 
-## ⚡ Benchmarking (parameters like )
+## ⚡ Benchmarking (parameters like ?)
 
 1. Download `DRASTI_Benchmark_YOLO.py`.
 
@@ -274,4 +274,4 @@ If you use this pipeline or dataset in your research, please cite:
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - DRASTI Dataset Authors
-- HPC Support Team
+- Stepwell HPC Support Team
