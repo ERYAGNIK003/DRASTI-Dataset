@@ -1,7 +1,8 @@
 
-# MMRotate Framework for DRASTI Dataset on Workstation
+# Benchmarking MMRotate Framework on DRASTI Dataset using NVIDIA GPUs
 
-This repository provides the complete workflow to train and test MMRotate models using the **DRASTI** dataset on a local **workstation**. It includes environment setup, dataset configuration, model training, and evaluation steps.
+This repository provides the complete workflow to train and test MMRotate models using the **DRASTI** dataset on **NVIDIA
+Quadro RTX 6000/8000 GPU**. It includes environment setup, dataset configuration, model training, and evaluation steps.
 
 ---
 
@@ -116,10 +117,10 @@ To begin training, use the following command inside the MMRotate directory:
 python tools/train.py configs/s2anet/s2anet_r50_fpn_1x_dota_le135.py
 ```
 
-This will start the training process and logs will be saved to the `work_dirs` directory automatically created.
+This will start the training process, and logs will be saved to the `work_dirs` directory automatically created.
 - Checkpoints will be saved in `work_dirs/<experiment_name>/`.
 
-to monitor training progress, you can use TensorBoard:
+To monitor training progress, you can use TensorBoard:
 
 ```bash
 load_ext tensorboard
