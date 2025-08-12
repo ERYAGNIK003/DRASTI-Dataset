@@ -22,7 +22,7 @@ Install PyTorch and essential dependencies (for CUDA 12.4):
 pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu124
 pip install -U openmim
 mim install mmcv
-mim install mmdet<3.0.0
+mim install mmdet\<3.0.0
 ```
 
 Clone and install MMRotate:

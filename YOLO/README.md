@@ -198,7 +198,7 @@ sbatch DRASTI_Test_YOLOv8n_obb.sh
 
 ---
 
-## ⚡ Benchmarking (parameters like ?)
+## ⚡ Benchmarking (parameters like mAP50-95,  Parameters(in M), GFLOPs, Model Size, Inference, FPS, Input Size)
 
 1. Download `DRASTI_Benchmark_YOLO.py`.
 
